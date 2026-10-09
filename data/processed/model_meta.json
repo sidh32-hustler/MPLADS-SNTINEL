@@ -1,0 +1,16 @@
+{
+  "version": "sentinel-baseline-1.0",
+  "features": [
+    "sanction_amount",
+    "expenditure_total",
+    "expenditure_transactions",
+    "unique_vendors",
+    "payment_successes",
+    "payment_in_progress",
+    "days_recommend_to_sanction",
+    "days_sanction_to_completion",
+    "expenditure_vs_sanction_ratio",
+    "peer_deviation_pct"
+  ],
+  "note": "Unsupervised anomaly signals; no fraud labels available."
+}

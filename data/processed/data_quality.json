@@ -1,0 +1,136 @@
+{
+  "recommended": {
+    "rows": 13694,
+    "unique_work_ids": 13694,
+    "duplicate_work_ids": 0,
+    "missing_work_id": 0,
+    "missing_values": {
+      "sr_no": 0,
+      "work_category_raw": 0,
+      "work_raw": 0,
+      "state": 0,
+      "ida_raw": 0,
+      "mp_name": 0,
+      "constituency": 0,
+      "work_description": 45,
+      "recommended_date": 0,
+      "recommended_amount": 0,
+      "sanction_date": 0,
+      "work_id": 0,
+      "work_type": 0,
+      "district": 0
+    },
+    "date_min": "2024-07-08 00:00:00",
+    "date_max": "2026-09-09 00:00:00"
+  },
+  "sanctioned": {
+    "rows": 5000,
+    "unique_work_ids": 5000,
+    "duplicate_work_ids": 0,
+    "missing_work_id": 0,
+    "missing_values": {
+      "sr_no": 0,
+      "work_category_raw": 0,
+      "work_raw": 0,
+      "state": 0,
+      "ida_raw": 0,
+      "mp_name": 0,
+      "constituency": 0,
+      "work_description": 14,
+      "recommended_date": 0,
+      "sanction_date": 0,
+      "sanction_amount": 0,
+      "work_status": 0,
+      "work_id": 0,
+      "work_type": 0,
+      "district": 0
+    },
+    "date_min": "2024-07-08 00:00:00",
+    "date_max": "2026-09-09 00:00:00"
+  },
+  "completed": {
+    "rows": 9000,
+    "unique_work_ids": 9000,
+    "duplicate_work_ids": 0,
+    "missing_work_id": 0,
+    "missing_values": {
+      "sr_no": 0,
+      "work_category_raw": 0,
+      "work_raw": 0,
+      "state": 0,
+      "ida_raw": 0,
+      "work_description": 47,
+      "mp_name": 0,
+      "constituency": 0,
+      "image": 3224,
+      "completion_date": 0,
+      "amount_disbursed": 5,
+      "work_id": 0,
+      "work_type": 0,
+      "district": 0,
+      "has_image": 0
+    },
+    "date_min": "2024-08-12 00:00:00",
+    "date_max": "2026-09-12 00:00:00"
+  },
+  "expenditure": {
+    "rows": 85139,
+    "unique_work_ids": 57163,
+    "duplicate_work_ids": 27976,
+    "missing_work_id": 0,
+    "missing_values": {
+      "sr_no": 0,
+      "state": 0,
+      "work_description": 0,
+      "work_id": 0,
+      "ida_raw": 0,
+      "mp_name": 0,
+      "constituency": 0,
+      "expenditure_date": 0,
+      "vendor_name": 0,
+      "payment_status": 0,
+      "fund_disbursed_amount": 0,
+      "district": 0
+    },
+    "date_min": "2024-07-25 00:00:00",
+    "date_max": "2026-09-13 00:00:00"
+  },
+  "allocated": {
+    "rows": 544,
+    "unique_work_ids": null,
+    "duplicate_work_ids": null,
+    "missing_work_id": null,
+    "missing_values": {
+      "sr_no": 0,
+      "state": 1,
+      "mp_name": 1,
+      "constituency": 1,
+      "allocated_amount": 1
+    },
+    "date_min": "",
+    "date_max": ""
+  },
+  "calamity": {
+    "rows": 13,
+    "unique_work_ids": null,
+    "duplicate_work_ids": null,
+    "missing_work_id": null,
+    "missing_values": {
+      "sr_no": 0,
+      "calamity_type": 1,
+      "calamity_name": 1,
+      "mp_name": 1,
+      "consent_date": 1,
+      "consent_amount": 0
+    },
+    "date_min": "2024-09-03 00:00:00",
+    "date_max": "2025-12-07 00:00:00"
+  },
+  "joins": {
+    "master_work_ids": 16385,
+    "expenditure_unique_work_ids": 57163,
+    "expenditure_unmatched_to_work_master": 62135,
+    "expenditure_unmatched_unique_ids": 42405
+  },
+  "overall_score": 76.56204862170685
+}
